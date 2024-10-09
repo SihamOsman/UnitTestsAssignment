@@ -14,9 +14,9 @@ class MainTest {
     void getreverseArrtest2() {
 
         char[] input = {'b', 'a', 'n', 'd'} ;
-        char[] test1 = Main.getreverseArr(input);
+        char[] test2 = Main.getreverseArr(input);
         char[] output = {'d', 'n', 'a', 'b'};
-        assertArrayEquals(output,test1);
+        assertArrayEquals(output,test2);
     }
 
 }
